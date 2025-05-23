@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Video Privato</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      background-color: black;
+      height: 100%;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    video {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      background-color: black;
+    }
+  </style>
+</head>
+<body>
+  <video controls autoplay playsinline>
+    <source src="https://drive.google.com/file/d/19gLRs7jaToFq_xVGq_iBMo3JUCsXfw9K/view?usp=sharing" type="video/quicktime">
+    Il tuo browser non supporta il formato .MOV. Prova con Safari o usa un file MP4 per maggiore compatibilità.
+  </video>
+</body>
+</html>
